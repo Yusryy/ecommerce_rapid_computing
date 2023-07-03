@@ -27,6 +27,9 @@
                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
+                           <a class="nav-link" href="{{url('show_order')}}">Order</a>
+                        </li>
+                        <li class="nav-item">
                            <a class="nav-link" href="{{url('show_cart')}}"><i class="fa fa-shopping-cart" style="font-size:25px"></i></a>
                         </li>
                         <form class="form-inline">

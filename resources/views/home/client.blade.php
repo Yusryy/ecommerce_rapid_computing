@@ -12,19 +12,19 @@
                         <div class="img_container">
                            <div class="img-box">
                               <div class="img_box-inner">
-                                 <img src="images/client.jpg" alt="">
+                                 <img src="images/face5.jpg" alt="">
                               </div>
                            </div>
                         </div>
                         <div class="detail-box">
                            <h5>
-                              Anna Trevor
+                              Johnson Micheal
                            </h5>
                            <h6>
                               Customer
                            </h6>
                            <p>
-                              Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                              I have bought from this store several times, and the customer service has always been excellent. Care is taken of the packaging, the purchased goods meet expectation, and in the event of an issue they are very pro-active to solve it. Very pleased with this store.
                            </p>
                         </div>
                      </div>
@@ -34,19 +34,21 @@
                         <div class="img_container">
                            <div class="img-box">
                               <div class="img_box-inner">
-                                 <img src="images/client.jpg" alt="">
+                                 <img src="images/face22.jpg" alt="">
                               </div>
                            </div>
                         </div>
                         <div class="detail-box">
                            <h5>
-                              Anna Trevor
+                              Jason Anderson
                            </h5>
                            <h6>
                               Customer
                            </h6>
                            <p>
-                              Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                              Item arrived well packaged, item as described, everything worked perfectly.
+                              Happy with purchase.
+                              Thoroughly recommended.
                            </p>
                         </div>
                      </div>
@@ -56,19 +58,19 @@
                         <div class="img_container">
                            <div class="img-box">
                               <div class="img_box-inner">
-                                 <img src="images/client.jpg" alt="">
+                                 <img src="images/face24.jpg" alt="">
                               </div>
                            </div>
                         </div>
                         <div class="detail-box">
                            <h5>
-                              Anna Trevor
+                              Paul Hudson
                            </h5>
                            <h6>
                               Customer
                            </h6>
                            <p>
-                              Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                           I've ordered twice from this store in the last 18 months and both times it was a great experience. The owner is very helpful and will do his best to answer any questions. I would thoroughly recommend
                            </p>
                         </div>
                      </div>

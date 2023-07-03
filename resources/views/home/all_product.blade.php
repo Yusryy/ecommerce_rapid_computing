@@ -29,20 +29,10 @@
          <!-- header section strats -->
          @include('home.header')
          <!-- end header section -->
-         <!-- slider section -->
-         @include('home.slider')
-         <!-- end slider section -->
-      </div>
-      <!-- why section -->
-      @include('home.why')
-      <!-- end why section -->
-      
-      <!-- arrival section -->
-      @include('home.new_arrival')
-      <!-- end arrival section -->
+         
       
       <!-- product section -->
-      @include('home.product')
+      @include('home.product_view')
       <!-- end product section -->
 
       <!-- Comment and reply System starts here  -->
@@ -102,17 +92,10 @@
 
       <!-- Comment and reply System ends here -->
 
-      <!-- subscribe section -->
-      @include('home.subscribe')
-      <!-- end subscribe section -->
-      <!-- client section -->
-      @include('home.client')
-      <!-- end client section -->
-      <!-- footer start -->
-      @include('home.footer')
+      
       <!-- footer end -->
       <div class="cpy_">
-         <p class="mx-auto">© 2023 Web Solution By <a href="https://yusry-website-hosting.web.app/">Mohamed Yusry</a><br>
+         <p class="mx-auto">© 2023 Web Solution By <a href="https://html.design/">Mohamed Yusry</a><br>
          
          </p>
       </div>

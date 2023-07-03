@@ -100,7 +100,7 @@
                            Fast Delivery
                         </h5>
                         <p>
-                           variations of passages of Lorem Ipsum available
+                           Fast Delivery to your door step within 24 hours
                         </p>
                      </div>
                   </div>
@@ -215,7 +215,7 @@
                            Free Shiping
                         </h5>
                         <p>
-                           variations of passages of Lorem Ipsum available
+                           Free shipping for Registered Customers
                         </p>
                      </div>
                   </div>
@@ -236,7 +236,7 @@
                            Best Quality
                         </h5>
                         <p>
-                           variations of passages of Lorem Ipsum available
+                           Directly Imported High Quality Products
                         </p>
                      </div>
                   </div>

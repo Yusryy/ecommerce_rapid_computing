@@ -14,13 +14,13 @@
                                     Sale 20% Off
                                     </span>
                                     <br>
-                                    On Everything
+                                    On Every Products
                                  </h1>
                                  <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                    Get 20% off on every products you purchase. 
                                  </p>
                                  <div class="btn-box">
-                                    <a href="" class="btn1">
+                                    <a href="{{url('products')}}" class="btn1">
                                     Shop Now
                                     </a>
                                  </div>
@@ -36,41 +36,16 @@
                               <div class="detail-box">
                                  <h1>
                                     <span>
-                                    Sale 20% Off
+                                    Sale 45% Off
                                     </span>
                                     <br>
-                                    On Everything
+                                    On Apple Products
                                  </h1>
                                  <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                    Get 50% off on your purchase on Apple Products. 60% off on card payments.
                                  </p>
                                  <div class="btn-box">
-                                    <a href="" class="btn1">
-                                    Shop Now
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container ">
-                        <div class="row">
-                           <div class="col-md-7 col-lg-6 ">
-                              <div class="detail-box">
-                                 <h1>
-                                    <span>
-                                    Sale 20% Off
-                                    </span>
-                                    <br>
-                                    On Everything
-                                 </h1>
-                                 <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
-                                 </p>
-                                 <div class="btn-box">
-                                    <a href="" class="btn1">
+                                    <a href="{{url('products')}}" class="btn1">
                                     Shop Now
                                     </a>
                                  </div>
@@ -84,7 +59,6 @@
                   <ol class="carousel-indicators">
                      <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
                      <li data-target="#customCarousel1" data-slide-to="1"></li>
-                     <li data-target="#customCarousel1" data-slide-to="2"></li>
                   </ol>
                </div>
             </div>

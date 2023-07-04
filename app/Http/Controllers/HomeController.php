@@ -10,6 +10,7 @@ use App\Models\Cart;
 use App\Models\Order;
 use App\Models\Comment;
 use App\Models\Reply;
+use RealRashid\SweetAlert\Facades\Alert;
 use Session;
 use Stripe;
 
@@ -17,7 +18,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $product = Product::paginate(10);
+        $product = Product::paginate(9);
         $comment=Comment::orderby('id','desc')->get();
         $reply=Reply::all();
         return view('home.userpage', compact('product','comment','reply'));
@@ -48,7 +49,7 @@ class HomeController extends Controller
         }
 
         else{
-            $product = Product::paginate(10);
+            $product = Product::paginate(9);
             $comment=Comment::orderby('id','desc')->get();
             $reply=Reply::all();
             return view('home.userpage', compact('product', 'comment', 'reply'));
@@ -112,6 +113,7 @@ class HomeController extends Controller
                 $cart->product_id=$product->id;
                 $cart->quantity=$request->quantity;
                 $cart->save();
+                Alert::success('Product Added Successfully', 'We have added the Product to the cart');
 
                 return redirect()->back()->with('message', 'Product Added Successfully');
 
@@ -330,17 +332,27 @@ class HomeController extends Controller
 
         $search_text=$request->search;
         $product=Product::where('title', 'LIKE', "%$search_text%")
-                        ->orwhere('category', 'LIKE', "%$search_text%")->paginate(10);
+                        ->orwhere('category', 'LIKE', "%$search_text%")->paginate(9);
         return view('home.userpage', compact('product','comment','reply'));
     }
 
     public function products()
     {
-        $product = Product::paginate(10);
+        $product = Product::paginate(15);
         $comment=Comment::orderby('id','desc')->get();
         $reply=Reply::all();
 
         return view('home.all_product', compact('product','comment','reply'));
+    }
+
+    public function about()
+    {
+        return view('home.about');
+    }
+
+    public function contact()
+    {
+        return view('home.contact');
     }
 
     public function search_product(Request $request)
@@ -350,7 +362,7 @@ class HomeController extends Controller
 
         $search_text=$request->search;
         $product=Product::where('title', 'LIKE', "%$search_text%")
-                        ->orwhere('category', 'LIKE', "%$search_text%")->paginate(10);
+                        ->orwhere('category', 'LIKE', "%$search_text%")->paginate(9);
         return view('home.all_product', compact('product','comment','reply'));
     }
 
